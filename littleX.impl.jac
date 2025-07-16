@@ -5,6 +5,7 @@ impl create_profile.create {
 	}
 
     report [here --> (`?Profile)];
+    # as walker is in root node, here can be used instead of root
 	# if  not [root –>  (`?Profile)] {
 	# 	root ++> Profile(self.username);
 	# }
