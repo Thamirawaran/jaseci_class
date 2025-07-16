@@ -1,0 +1,35 @@
+```
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Coverage reports
+.coverage
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+```
