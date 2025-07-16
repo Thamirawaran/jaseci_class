@@ -1,4 +1,4 @@
-import from  mtllm.llm { Model }
+import from  mtllm { Model }
 
 glob llm = Model(model_name="gemini/gemini-2.5-flash");
 

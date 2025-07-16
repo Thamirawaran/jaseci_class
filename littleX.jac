@@ -3,7 +3,7 @@ node Profile {
     has username: str = "";
 
     # Declare update ability
-    can  update with update_profile entry;
+    can update with update_profile entry;
 
 }
 
@@ -18,17 +18,17 @@ node Comment {
 }
 
 # Define Post edge
-edge  Post { }
+edge Post { }
 
 # Define create profile
 walker create_profile {
-    has  username: str;
+    has username: str;
 
     # Declare create ability
-    can  create with `root entry;
+    can create with `root entry;
 }
 
 # Define update profile
 walker update_profile { 
-    has  new_username: str;
+    has new_username: str;
 }
